@@ -1,0 +1,44 @@
+body
+{
+	background-color: rgb(75, 75, 75);
+}
+
+h1
+{
+	color: rgb(18, 117, 5);
+	text-align: center;
+}
+
+p
+{
+	color: rgb(12, 80, 3);
+	text-align: center;
+}
+
+#box
+{
+	width: 400px;
+	height: 0 auto;
+	background-color: rgb(85, 85, 85);
+	border: 2px solid black;
+	margin: 0 auto;
+}
+
+input
+{
+		margin-left: 125px;
+		background-color: rgb(75, 75, 75);
+		color: black;
+}
+
+#buttons
+{
+			margin-left: 150px;
+}
+
+button
+{
+		text-align: center;
+		background-color: rgb(75, 75, 75);
+		color: rgb(18, 117, 5);
+}
