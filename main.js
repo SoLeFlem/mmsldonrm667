@@ -39,4 +39,12 @@ function Clicker()
 {
 	clicker = clicker + 1; 
 	output.innerHTML = clicker;
+	if(clicker >= 1000)
+	{
+		alert("He, oh calmos tu vas casser le compteur");
+		clicker = 0; 
+		output.innerHTML = clicker;
+	}
+
+
 }
