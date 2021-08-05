@@ -1,7 +1,14 @@
-function poulax()
+var output = document.getElementById("span");
+var clicker = parseInt(output.innerText);
+var poulax;
+function Poulax()
 {
-	var poulax = document.getElementById("poulax").value;
+	poulax = document.getElementById("poulax").value;
 	if (poulax == "oui")
+	{
+		alert("Ok, Ok");
+	}
+	if (poulax == "Oui")
 	{
 		alert("Ok, Ok");
 	}
@@ -9,7 +16,15 @@ function poulax()
 	{
 		alert("Allez casse toi");
 	}
+	if (poulax == "Non")
+	{
+		alert("Allez casse toi");
+	}
 	if (poulax == "mms")
+	{
+		alert("ldo");
+	}
+	if (poulax == "Mms")
 	{
 		alert("ldo");
 	}
@@ -18,4 +33,10 @@ function poulax()
 		alert("ekipafond");
 	}
 
+}
+
+function Clicker()
+{
+	clicker = clicker + 1; 
+	output.innerHTML = clicker;
 }

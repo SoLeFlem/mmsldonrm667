@@ -17,7 +17,7 @@ p
 
 #box
 {
-	width: 400px;
+	width: 400px ;
 	height: 0 auto;
 	background-color: rgb(85, 85, 85);
 	border: 2px solid black;
@@ -26,19 +26,31 @@ p
 
 input
 {
-		margin-left: 125px;
+		margin-left: 100px;
 		background-color: rgb(75, 75, 75);
 		color: black;
 }
 
-#buttons
-{
-			margin-left: 150px;
-}
-
 button
 {
+		margin: 0 auto;
 		text-align: center;
 		background-color: rgb(75, 75, 75);
 		color: rgb(18, 117, 5);
+}
+
+#canvas
+{
+	width : 400px;
+	height: 400px;
+
+	background-color: rgb(75, 75, 75);
+	margin: 0 auto;
+}
+
+#output
+{	
+	background-color: rgba(0, 0, 0, 0.466);
+	color: rgb(30, 255, 0);
+	text-align: center;
 }
